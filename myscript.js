@@ -8,12 +8,12 @@ console.log (costKm)
 
 if(userAge < 18){
     document.getElementById('costo').innerHTML =
-    (costKm - ((costKm / 100) * 20)).toFixed(2);
+    (costKm - ((costKm / 100) * 20)).toFixed(2) + ' €';
 } else if (userAge >= 65){
     document.getElementById('costo').innerHTML =
-    (costKm - ((costKm / 100) * 40)).toFixed(2);
+    (costKm - ((costKm / 100) * 40)).toFixed(2) + ' €';
 } else {
     document.getElementById('costo').innerHTML =
-    (costKm);
+    (costKm) + ' €';
 }
 
