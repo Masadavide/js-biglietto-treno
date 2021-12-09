@@ -1,8 +1,8 @@
-let userKilometres = prompt ('Inserisci il numero di chilometri che vuoi percorrere:')
-let userAge = prompt ('Inserisci la tua età')
+let userKilometres = parseInt(prompt ('Inserisci il numero di chilometri che vuoi percorrere:'));
+let userAge = prompt ('Inserisci la tua età');
 
 
-const costKm = (userKilometres * 0.21) //prezzo in base ai chilometri 
+let costKm = (userKilometres * 0.21); //prezzo in base ai chilometri 
 
 console.log (costKm)
 
